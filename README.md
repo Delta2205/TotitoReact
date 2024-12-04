@@ -1,10 +1,31 @@
-# React + Vite
+# 🎮 Juego de Totito (Tic-Tac-Toe)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Este es un juego clásico de **Totito (Tic-Tac-Toe)** desarrollado con **React**. Los jugadores pueden tomar turnos para colocar su símbolo (X o O) en una cuadrícula de 3x3. El primer jugador en obtener tres símbolos consecutivos (horizontal, vertical o diagonal) gana. El juego utiliza **React** y el hook **`useState`** para gestionar el estado de la aplicación.
 
-Currently, two official plugins are available:
+## Características
+- Juego para dos jugadores en el mismo dispositivo.
+- Funcionalidad para reiniciar el juego.
+- Verificación automática de quien gana o si hay empate.
+- Interfaz sencilla y amigable para usuarios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh35
+## Tecnologías Utilizadas
+- **Frontend:** React
+- **Estado:** `useState`
 
-# Divertido juego de totito hecho a base de react este contiene localstorage para guardar partidas
+## Instalación
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/deltacode/totito.git
+2. Navega al directorio del proyecto:}
+   ```bash
+   cd totito
+3. Installar dependencias:
+   ```bash
+   npm install
+4. Ejecutar el proyecto
+   ```bash
+   npm run dev
+
