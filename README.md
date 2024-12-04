@@ -5,7 +5,7 @@ Este es un juego clásico de **Totito (Tic-Tac-Toe)** desarrollado con **React**
 
 ## Características
 - Juego para dos jugadores en el mismo dispositivo.
-- Funcionalidad para reiniciar el juego.
+- Funcionalidad para guardar la partida usando el local storage.
 - Verificación automática de quien gana o si hay empate.
 - Interfaz sencilla y amigable para usuarios.
 
